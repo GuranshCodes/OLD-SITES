@@ -1,21 +1,19 @@
-
-import { fileURLToPath, URL } from 'node:url'
 import react from '@vitejs/plugin-react'
-import { defineConfig, loadEnv } from 'vite'
+import { defineConfig } from 'vite'
+import base44 from '@base44/vite-plugin'
 
-// https://vite.dev/config/
-export default defineConfig(({ mode }) => {
-  const env = loadEnv(mode, process.cwd(), '')
-  const repoName = env.GITHUB_REPOSITORY?.split('/')[1] || 'Portfolio'
-  const base = mode === 'production' ? `/${repoName}/` : '/'
+export default defineConfig({
+  logLevel: 'error', 
+  plugins: [
+    base44({
 
-  return {
-    base,
-    resolve: {
-      alias: {
-        '@': fileURLToPath(new URL('./src', import.meta.url))
-      }
-    },
-    plugins: [react()],
-  }
-})
+      legacySDKImports: process.env.BASE44_LEGACY_SDK_IMPORTS === 'true',
+      hmrNotifier: true,
+      navigationNotifier: true,
+      analyticsTracker: true,
+      visualEditAgent: true,
+    }),
+    react(),
+  ],
+});
+

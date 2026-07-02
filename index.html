@@ -1,24 +1,15 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="https://img.icons8.com/fluency/48/door.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="manifest" href="%BASE_URL%manifest.json" />
-    <link rel="icon" href="%BASE_URL%favicon.png" />
-    <title>Guransh's Portfolio</title>
-    <meta name="description" content="Guransh's developer portfolio — Grade 9 student, aspiring software engineer, 3+ years of coding experience." />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="description" content="classresources.ca — a liquid glass gateway to calculations and taxes resources." />
+    <title>classresources.ca</title>
   </head>
   <body>
     <div id="root"></div>
-    <script>
-      (function () {
-        const redirect = sessionStorage.getItem('gh-pages-redirect')
-        if (redirect) {
-          sessionStorage.removeItem('gh-pages-redirect')
-          history.replaceState(null, '', redirect)
-        }
-      })()
-    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
