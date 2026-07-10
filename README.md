@@ -1,101 +1,87 @@
-<h1 align="center">OLD-SITES</h1>
+<div align="center">
 
-<p align="center">
-This repository contains previous versions of the websites that were once deployed on <strong>classresources.ca</strong>. These projects have since been replaced with newer versions, but the source code has been preserved for reference, learning, and reuse.
-</p>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=gradient&text=OLD-SITES&fontSize=52&fontAlignY=40&desc=Archived%20ClassResources%20Iterations&descAlignY=62"/>
 
-<hr>
+<h1>OLD-SITES</h1>
+
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=2500&pause=1000&color=36BCF7&center=true&vCenter=true&width=650&lines=Preserving+Design+Evolution;Archived+Project+Versions;Reference+for+Future+Learning;Open+for+Reuse"/>
+
+<br><br>
+
+<a href="https://github.com/GuranshCodes/OLD-SITES"><img src="https://img.shields.io/badge/Repository-GitHub-181717?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/GuranshCodes"><img src="https://img.shields.io/badge/Maintained-ClassResources-blue?style=for-the-badge"></a>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+<img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
+<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white">
+<img src="https://komarev.com/ghpvc/?username=GuranshCodes&style=for-the-badge">
+
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient"/>
 
 <h2>About</h2>
+<p>This repository serves as a digital archive for previous versions of the <b>ClassResources</b> website. As the platform evolved through various redesigns, these older versions were preserved here for historical reference, educational study, and as a resource for developers looking for boilerplate layouts and UI design inspiration.</p>
 
-<p>
-Over time, the Class Resources website has gone through several redesigns and iterations. Rather than deleting the older versions, they have been archived in this repository so others can explore how the site evolved or use the designs as a starting point for their own projects.
-</p>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient"/>
 
-<h2>What's Included</h2>
+<h2>Archive Contents</h2>
+<table align="center">
+  <tr>
+    <th align="left">Category</th>
+    <th align="left">Purpose</th>
+  </tr>
+  <tr>
+    <td>Archived Layouts</td>
+    <td>Examples of previous UI iterations</td>
+  </tr>
+  <tr>
+    <td>Design Patterns</td>
+    <td>Responsive web design references</td>
+  </tr>
+  <tr>
+    <td>Boilerplate Code</td>
+    <td>React/Vite starter templates</td>
+  </tr>
+</table>
 
-<ul>
-  <li>Previous Class Resources website designs</li>
-  <li>Archived layouts and user interfaces</li>
-  <li>Older React and Vite projects</li>
-  <li>Examples of responsive web design</li>
-</ul>
-
-<h2>Built With</h2>
-
-<ul>
-  <li>React</li>
-  <li>Vite</li>
-  <li>JavaScript</li>
-  <li>Tailwind CSS</li>
-</ul>
-
-<h2>Project Structure</h2>
-
-<pre><code>OLD-SITES/
-├── public/
-├── src/
-├── .gitignore
-├── components.json
-├── eslint.config.js
-├── index.html
-├── jsconfig.json
-├── package-lock.json
-├── package.json
-├── postcss.config.js
-├── tailwind.config.js
-├── todo.md
-└── vite.config.js
-</code></pre>
+<h2>Tech Stack</h2>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=react,vite,js,tailwind,vscode,git,github"/>
+</div>
 
 <h2>Getting Started</h2>
+<pre><code># Clone the repository
+git clone https://github.com/GuranshCodes/OLD-SITES.git
 
-<h3>Clone the repository</h3>
-
-<pre><code>git clone https://github.com/GuranshCodes/OLD-SITES.git
+# Navigate to directory
 cd OLD-SITES
-</code></pre>
 
-<h3>Install dependencies</h3>
+# Install dependencies
+npm install
 
-<pre><code>npm install
-</code></pre>
+# Run the project
+npm run dev</code></pre>
 
-<h3>Run the development server</h3>
+<h2>Reuse Policy</h2>
+<blockquote>
+  <p>These designs are open for public use. If you find a component or layout that fits your needs, feel free to download the source code, modify it, and build your own applications based on these examples.</p>
+</blockquote>
 
-<pre><code>npm run dev
-</code></pre>
-
-<h3>Build for production</h3>
-
-<pre><code>npm run build
-</code></pre>
-
-<h2>Use These Designs</h2>
-
-<p>
-If you like any of these website designs, feel free to download them and use them in your own projects. You are welcome to modify, customize, and build upon them to suit your needs.
-</p>
-
-<h3>How to Download</h3>
-
-<ol>
-  <li>Click the green <strong>&lt;&gt; Code</strong> button on this repository.</li>
-  <li>Select <strong>Download ZIP</strong>, or clone the repository using Git:</li>
-</ol>
-
-<pre><code>git clone https://github.com/GuranshCodes/OLD-SITES.git
-</code></pre>
-
-<p>
-After downloading, install the dependencies with <code>npm install</code> and start the development server using <code>npm run dev</code>.
-</p>
+<h2>Repository Activity</h2>
+<div align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=GuranshCodes&show_icons=true&theme=tokyonight"/>
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=GuranshCodes&theme=tokyo-night"/>
+</div>
 
 <h2>Contact</h2>
+<ul>
+  <li><strong>GitHub:</strong> <a href="https://github.com/GuranshCodes">github.com/GuranshCodes</a></li>
+</ul>
 
-<p>
-GitHub:<br>
-<a href="https://github.com/GuranshCodes">
-https://github.com/GuranshCodes
-</a>
-</p>
+<div align="center">
+  <p>Maintained by <b>GuranshCodes</b></p>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=180&color=gradient"/>
+</div>
